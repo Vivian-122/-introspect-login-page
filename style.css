@@ -1,0 +1,65 @@
+html{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  height: 100%;
+  margin: 0;
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.logo{
+  display: flex;
+  position: absolute;
+  font-size: 40px;
+  font-family: 'Unbounded', serif;
+  top: 200px;
+  left: 490px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: transform 0.9s ease-in-out;
+  display: flex;
+  position: absolute;
+  top: 680px;
+  right: 438px;
+  font-size: 23px;
+  font-family: 'Unbounded', serif;
+}
+button:hover {
+  background: lightpink
+}
+.button:active {
+  background-color: lightpink;
+  box-shadow: 0 5px #dfa4cd;
+  transform: translateY(10px);
+}
+
+.pink_star{
+  display: flex;
+  position: absolute;
+  bottom: 30px;
+  right: 100px;
+}
+
+.pink_star2{
+  display: flex;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
