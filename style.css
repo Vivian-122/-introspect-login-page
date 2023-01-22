@@ -1,0 +1,63 @@
+html{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  height: 100%;
+  margin: 0;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#formItem label{
+  display: block;
+  text-align: center;
+  line-height: 150%;
+  
+}
+form{
+  font-family: 'Unbounded', serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  position: absolute;
+  top: 390px;
+  left: 615px;
+  
+}
+
+.username {
+  font-family: 'Unbounded', serif;
+  display: flex;
+}
+.password {
+  font-family: 'Unbounded', serif;
+  display: flex;
+}
+.submit{
+  font-family: 'Unbounded', serif;
+  display: flex;
+}
+#textBox {
+  font-size: 14pt;
+}
+
+.Mood_Tracker {
+  display: flex;
+  position: absolute;
+  top: 1000px;
+  left: 675px;
+  font-size: 23px;
+  font-family: 'Unbounded', serif;
+}
